@@ -1,0 +1,420 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>github</title>
+	<style>
+	body{
+		font-family: "微软雅黑";
+		margin: 0;
+	}
+	h1,h2,h3,h4,h5,h6{
+		margin:0;
+	}
+	#da{
+		width: 100%;
+		/*height: 2750px;*/
+		/*border: 1px solid black;*/
+	}
+	#head{
+		width: 100%;
+		height: 28px;
+		/*border: 1px solid red;*/
+		padding-top: 15px;
+		padding-bottom: 15px;
+		background: #F5F5F5;
+	}
+	
+	.container{
+		width: 980px;
+		/*border: 1px solid red;*/
+		margin: 0 auto;
+	}
+	.juzhong{
+		height: 28px;
+	}
+	.xiao1{
+		width: 48px;
+		height: 20px;
+		/*border: 1px solid #ccc;*/
+		padding: 4px 8px;
+		float: left;
+		color: black;
+		font-size: 14px;
+		text-align: center;
+		line-height: 28px;
+	}
+	.kuan1{
+		width: 89.25px;
+		color: black;
+		font-size: 2em;
+		line-height: 28px;
+		text-align: center;
+		margin-right: 23px;
+		margin-top: -5px;
+	}
+	.kuan2{
+		width: 300px;
+		color: #767676;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: left;
+		border: 1px solid #ccc;
+	}
+	.kuan3{
+		width:65px; 
+
+	}
+	.kuan4{
+		width: 71px;
+
+	}
+	.kuan5{
+		width: 80px;
+
+	}
+	.kuan6{
+		width: 45px;
+
+
+	}
+	.kuan7{
+		width:70px;
+		height: 28px; 
+		padding: 3px;
+		border-radius:5px; 
+		background: #6BBC4F;
+		margin-left: 40px;
+		margin-right: 10px;
+		border: 1px solid #ccc;
+		margin-top: -3px;
+	}
+
+	.kuan8{
+		width:70px;
+		height: 28px; 
+		padding: 3px;
+		border-radius:5px; 
+		background: #F2F2F2;
+		border: 1px solid #ccc;
+		margin-top: -3px;
+	}
+	
+	#banner{
+		width: 100%;
+		height: 313px;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		background: #202021 url('./images/octicons-bg.png');
+	}
+	.juzhong1{
+		height: 313px;
+		position: relative;
+	}
+	#banner1{
+		width: 500px;
+		height: 300px;
+		padding-top: 10px;
+		margin-bottom: 15px;
+		color: #FFF ;
+		text-align: left;
+		line-height: 40px;
+	}
+	#banner1 h1{
+		font-size: 4em;
+		margin: 10px 0;
+		text-align: left;
+	}
+	.juzhong1 ul{
+		width:320px;
+		height:310px;
+		position:absolute;
+		top:0px;
+		right:0px;
+	}
+	 .juzhong1 ul li {
+		width:298px;
+		height:22px;
+		padding: 10px;
+		text-align:left;
+		line-height:18px;
+		margin-top:-1px;
+		margin-bottom: 10px;
+		list-style: none;
+	}
+    .juzhong1 ul li.li{
+		width:298px;
+		height:22px;
+		padding: 10px;
+		border-radius:5px; 
+		background-color: #FAFAFA;
+		font-size:14px;
+		color: #AAA;
+		text-align:left;
+		line-height:22px;
+		margin-top:-1px;
+		margin-bottom: 10px;
+	}
+	.juzhong1 ul li.btn{
+		width:298px;
+		height:22px;
+		padding: 10px;
+		border-radius:5px; 
+		background-color: #72c456;
+		font-size:18px;
+		color: white;
+		text-align:center;
+		line-height:22px;
+		margin-top:-1px;
+		margin-bottom: 10px;
+	}
+	 .juzhong1 ul li.bian{
+		margin-top: -10px;
+		padding-top: -10px;
+		color: #767676;
+		font-size: 14px;
+	}
+	#content1{
+		width: 100%;
+		height: 215px;
+		/*border: 1px solid black;*/
+		padding-top: 80px;
+		padding-bottom: 80px;
+		background: #242E61;
+		overflow: hidden;
+	}
+	.juzhong2{
+		height: 314px;
+	}
+	h1{
+		color: white;
+		text-align: center;
+
+	}
+	.anniu{
+		width:330px;
+		height:22px;
+		padding: 10px;
+		text-align:center;
+		line-height:22px;
+		margin-top:20px;
+		margin-left:300px;
+		background-color: #3BA1E8;
+		color: white;
+		font-size: 18px;
+		margin-bottom: 60px;
+		border-radius: 5px;
+	}
+	.bun{
+		width:298px;
+		height:22px;
+		padding: 10px;
+		text-align:center;
+		line-height:22px;
+		margin-top:20px;
+		margin-left:300px;
+		border-radius: 5px;
+		margin-left:300px;
+		background-color: #7BCD5F;
+		color: white;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+	#content2{
+		width: 100%;
+		height: 630px;
+		border: 1px solid #ccc;
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.juzhong3{
+		height: 100px;
+		margin-bottom: 40px;
+	}
+	h2{
+		font-size: 2em;
+		text-align: center;
+		color: black;
+		margin-bottom: 20px;
+	}
+	
+	h4{
+		font-size: 18px;
+		text-align: center;
+		color: black;
+		margin-bottom: 60px;
+	}
+	.big{
+		width: 1010px;
+		height: 510px;
+		margin: 10px auto;
+	}
+	.small{
+		width: 450px;
+		height: 193px;
+		padding:40px 25px 20px 25px;
+		float: left;
+		text-align: center;
+	}
+	#content3{
+		width: 100%;
+		height: 800px;
+		border: 1px solid #ccc;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		margin-top: -1px;
+	}
+	#content3 h3{
+		font-size: 24px;
+		text-align: center;
+		margin: 30px auto 70px auto;
+	}
+	.juzhong5{
+		height: 800px;
+	}
+	#foot{
+		width: 100%;
+		height: 18px;
+		/*border: 1px solid black;*/
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.juzhong4{
+		height: 18px;
+	}
+	
+	 .juzhong4 ul li {
+		float: left;
+		list-style: none;
+		font-size: 12px;
+		margin-right: 10px;
+		text-align: center;
+		line-height: 12px;
+		margin-top: -5px;
+	}
+	.zhong{
+		float: left;
+	}
+	.b{
+		width: 30px;
+		height: 30px;
+		margin-left: 150px;
+		text-align: center;
+		line-height: 30px;
+	}
+	.c{
+		float: right;
+	}
+
+
+	</style>
+</head>
+<body>
+	<div id="da">
+		<div id="head">
+			<div class="container juzhong">
+				<div class="xiao1 kuan1"><b>GitHub</b></div>
+				<div class="xiao1 kuan2">Search GitHub</div>
+				<div class="xiao1 kuan3"><b>Explore</b></div>
+				<div class="xiao1 kuan4"><b>Features</b></div>
+				<div class="xiao1 kuan5"><b>Enterprise</b></div>
+				<div class="xiao1 kuan6"><b>Blog</b></div>
+				<div class="xiao1 kuan7">Sign up</div>
+				<div class="xiao1 kuan8">Sign in</div>
+			</div>
+		</div>
+		<div id="banner">
+			<div class="container juzhong1">
+				<div id="banner1"><h1><b>Build software<br><br>batter,together</b></h1>
+					<p>Powerful collaboration, code review, and code management for open source and private projects. Need private repositories? <br><a href="/plans">Upgraded plans start at $7/mo.</a></p>
+			    </div>
+                <ul>
+					<li class="li">Pick a username</li>
+					<li class="li">Your email</li>
+					<li class="li">Creat a password</li>
+					<li class="bian">Use at least one lowercase letter, one numeral, and seven characters.</li>
+					<li class="btn"><b>Sign up for GitHub</b></li>
+					<li class="bian"> By clicking "Sign up for GitHub", you agree to our
+		            <a href="https://help.github.com/terms" >terms of service</a> and
+		            <a href="https://help.github.com/privacy">privacy policy</a>. We will send you account related emails occasionally.</li>
+				</ul>   
+
+			</div>
+		</div>
+		<div id="content1">
+			<div class="container juzhong2">
+				 <h1>Want to use GitHub on your servers?</h1>
+                  <div class="anniu">Learn more about GitHub Enterprise.</div>
+                  <img  src="./images/gh-enterprise-code.png" />
+            
+			</div>
+	    </div>
+		<div id="content2">
+			<div class="container juzhong3">
+				<h2>Why you’ll love GitHub.</h2>
+     			<h4><a href="/features">Powerful features</a> to make software development more collaborative.</h4>
+     		</div>
+
+     			<div class="big">
+     				<div class="small">
+     					<img src="./images/a.png"/>
+     					<h3>Great collaboration starts with communication.</h3>
+        				<p>Review changes, comment on lines of code, report issues, and plan the future of your project with discussion tools.</p>
+        			</div>
+     				<div class="small">
+     					<img src="./images/b.png"/>
+     					<h3>Friction-less development across teams.</h3>
+        				<p>Work with project collaborators or teams of people in organization accounts to communicate with ease.</p>
+    				</div>
+     				<div class="small">
+     					<img src="./images/c.png"/>
+     					<h3>World’s largest open source community.</h3>
+        				<p>Share your projects with the world, get feedback, and contribute to <a href="/explore">millions of repositories</a> hosted on GitHub.</p>
+     				</div>
+     				<div class="small">
+     					<img src="./images/d.png"/>
+     					<h3>Do more with powerful integrations.</h3>
+        				<p>Discover applications and tools that <a href="/integrations">integrate with GitHub</a> to help you and your team build software better, together.</p>
+          				</div>
+     			</div>
+		</div>
+		<div id="content3">
+			<div class="container juzhong5">
+				<h2>The easiest way to use GitHub on Windows</h2>
+     			<div class="bun">Download GitHub for Windows</div>
+     			<h4>For Windows Vista, 7, 8, &amp; 8.1 &middot; <a href="https://windows.github.com">Learn more</a></h4>
+     			<img  src="./images/content3.png" />
+     			<h3>You can also use <a href="https://mac.github.com/">GitHub on Mac</a></h3>
+
+			</div>
+		</div>
+		<div id="foot">
+			<div class="container juzhong4">
+				<div class="zhong a">
+				<ul>
+					<li>&copy; 2015 GitHub, Inc.</li>
+			        <li>Terms</li>
+			        <li>Privacy</li>
+			        <li>Security</li>
+			        <li>Contact</li>
+				</ul>
+				</div>
+				<div class="zhong b"><img src="./images/e.png"></div>
+				<div class="zhong c">
+					<ul>
+        		  		<li>Status</li>
+				     	<li>API</li>
+				      	<li>Training</li>
+				      	<li>Shop</li>
+				        <li>Blog</li>
+				        <li>About</li>
+				        <li>Help</li>
+
+    				</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
